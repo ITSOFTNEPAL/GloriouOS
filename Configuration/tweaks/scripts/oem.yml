@@ -1,0 +1,8 @@
+---
+title: OEM Tweaks
+description: Add OEM INFO 
+actions:
+  - !powerShell:
+    command: '.\oem.ps1'
+    exeDir: true
+    wait: true
